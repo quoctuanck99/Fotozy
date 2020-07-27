@@ -24,8 +24,10 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\tuankq\AppData\Local\Temp\baseline_keyboard_return_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\tuankq\AppData\Local\Temp\baseline_sentiment_very_satisfied_24.xml" />
                                                 <entry key="opacityPercent" value="80" />
+                                                <entry key="paddingPercent" value="5" />
+                                                <entry key="trimmed" value="true" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -36,7 +38,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/G:/AndroidStudio/plugins/android/lib/android.jar!/images/material/icons/materialicons/keyboard_return/baseline_keyboard_return_24.xml" />
+                                                <entry key="url" value="jar:file:/G:/AndroidStudio/plugins/android/lib/android.jar!/images/material/icons/materialicons/sentiment_very_satisfied/baseline_sentiment_very_satisfied_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -82,11 +84,10 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="assetType" value="IMAGE" />
                                       <entry key="imageAsset" value="C:\Users\tuankq\Pictures\llogo.png" />
-                                      <entry key="outputName" value="ic_laucher" />
+                                      <entry key="outputName" value="ic_react" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="7b7b78" />
+                                      <entry key="themeColor" value="ffa201" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -148,7 +149,6 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="fff8f6" />
                                       <entry key="outputName" value="ic_launcher2" />
                                     </map>
                                   </option>
@@ -318,6 +318,11 @@
                                 </PersistentState>
                               </value>
                             </entry>
+                          </map>
+                        </option>
+                        <option name="values">
+                          <map>
+                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>

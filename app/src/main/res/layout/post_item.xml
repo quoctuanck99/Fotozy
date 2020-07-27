@@ -60,13 +60,13 @@
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:id="@+id/like"
-                android:src="@drawable/ic_like" />
+                android:src="@drawable/ic_unreact" />
 
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:id="@+id/comment"
-                android:src="@drawable/ic_comment"
+                android:src="@drawable/ic_comment2"
                 android:layout_toEndOf="@id/like"
                 android:layout_marginStart="10dp" />
 

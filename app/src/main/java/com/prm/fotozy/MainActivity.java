@@ -55,12 +55,6 @@ public class MainActivity extends AppCompatActivity {
                 public boolean onNavigationItemSelected(@NonNull MenuItem item) {
 
                     switch (item.getItemId()) {
-//                        case R.id.nav_home:
-//                            selectedfragment = new HomeFragment();
-//                            break;
-//                        case R.id.nav_search:
-//                            selectedfragment = new SearchFragment();
-//                            break;
                         case R.id.nav_add:
                             selectedfragment = null;
                             startActivity(new Intent(MainActivity.this, PostActivity.class));

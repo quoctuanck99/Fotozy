@@ -114,8 +114,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\tuankq\Pictures\llogo.png" />
-                                                <entry key="scalingPercent" value="78" />
+                                                <entry key="imagePath" value="C:\Users\tuankq\Pictures\avt.png" />
+                                                <entry key="scalingPercent" value="60" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -148,7 +148,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundColor" value="f9f6ff" />
+                                      <entry key="backgroundColor" value="fff8f6" />
+                                      <entry key="outputName" value="ic_launcher2" />
                                     </map>
                                   </option>
                                 </PersistentState>

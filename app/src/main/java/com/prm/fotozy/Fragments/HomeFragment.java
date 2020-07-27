@@ -86,6 +86,11 @@ public class HomeFragment extends Fragment {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 followingList.clear();
+                String uid = FirebaseAuth
+                        .getInstance()
+                        .getCurrentUser()
+                        .getUid();
+                followingList.add(uid);
                 for (DataSnapshot snapshot : dataSnapshot.getChildren()) {
                     followingList.add(snapshot.getKey());
                 }
@@ -96,7 +101,6 @@ public class HomeFragment extends Fragment {
 
             @Override
             public void onCancelled(DatabaseError databaseError) {
-
             }
         });
     }

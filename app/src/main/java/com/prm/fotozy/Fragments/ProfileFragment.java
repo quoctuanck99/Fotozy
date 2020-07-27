@@ -29,6 +29,7 @@ import com.google.firebase.database.ValueEventListener;
 import com.prm.fotozy.Adapter.MyFotosAdapter;
 import com.prm.fotozy.EditProfileActivity;
 import com.prm.fotozy.FollowersActivity;
+import com.prm.fotozy.MessageActivity;
 import com.prm.fotozy.Model.Post;
 import com.prm.fotozy.Model.User;
 import com.prm.fotozy.OptionsActivity;
@@ -46,6 +47,7 @@ public class ProfileFragment extends Fragment {
     ImageView image_profile, options;
     TextView posts, followers, following, fullname, bio, username;
     Button edit_profile;
+    Button message_profile;
 
     private List<String> mySaves;
 
@@ -80,6 +82,7 @@ public class ProfileFragment extends Fragment {
         fullname = view.findViewById(R.id.fullname);
         bio = view.findViewById(R.id.bio);
         edit_profile = view.findViewById(R.id.edit_profile);
+        message_profile = view.findViewById(R.id.message_profile);
         username = view.findViewById(R.id.username);
         my_fotos = view.findViewById(R.id.my_fotos);
         saved_fotos = view.findViewById(R.id.saved_fotos);
@@ -112,6 +115,7 @@ public class ProfileFragment extends Fragment {
 
         if (profileid.equals(firebaseUser.getUid())) {
             edit_profile.setText("Edit Profile");
+            view.findViewById(R.id.message_profile_layout).setVisibility(View.GONE);
         } else {
             checkFollow();
             saved_fotos.setVisibility(View.GONE);
@@ -140,6 +144,17 @@ public class ProfileFragment extends Fragment {
                     FirebaseDatabase.getInstance().getReference().child("Follow").child(profileid)
                             .child("followers").child(firebaseUser.getUid()).removeValue();
 
+                }
+            }
+        });
+
+        message_profile.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (message_profile.getVisibility() == View.VISIBLE) {
+                    Intent intent = new Intent(getActivity(), MessageActivity.class);
+                    intent.putExtra("userid", profileid);
+                    startActivity(intent);
                 }
             }
         });

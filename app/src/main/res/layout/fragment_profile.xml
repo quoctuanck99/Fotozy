@@ -74,9 +74,7 @@
                 <de.hdodenhof.circleimageview.CircleImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
-                    android:id="@+id/image_profile"
-                    app:civ_border_color="@color/colorYellow"
-                    app:civ_border_width="2px"/>
+                    android:id="@+id/image_profile" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -158,14 +156,44 @@
 
                     </LinearLayout>
 
-                    <Button
-                        android:id="@+id/edit_profile"
-                        android:layout_width="220dp"
-                        android:layout_marginStart="27dp"
+                    <LinearLayout
+                        android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:layout_marginTop="8dp"
-                        android:background="@color/colorYellow"
-                        android:textColor="@color/white" />
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:paddingTop="8dp"
+                        >
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1">
+                            <Button
+                                android:id="@+id/edit_profile"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@color/colorYellow"
+                                android:textColor="@color/white" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:id="@+id/message_profile_layout">
+                            <Button
+                                android:id="@+id/message_profile"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:background="@color/colorYellow"
+                                android:textColor="@color/white"
+                                android:text="MESSAGE"/>
+                        </LinearLayout>
+                    </LinearLayout>
 
                 </LinearLayout>
 

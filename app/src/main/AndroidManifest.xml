@@ -30,6 +30,7 @@
         <activity android:name="com.prm.fotozy.OptionsActivity" />
         <activity android:name="com.prm.fotozy.EditProfileActivity" />
         <activity android:name="com.prm.fotozy.FollowersActivity" />
+        <activity android:name="com.prm.fotozy.MessageActivity" />
 <!--        <activity android:name="com.prm.fotozy.StoryActivity" />-->
     </application>
 

@@ -24,7 +24,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\tuankq\AppData\Local\Temp\baseline_sentiment_very_satisfied_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\SAP-LAB-FPT\AppData\Local\Temp\baseline_send_24.xml" />
                                                 <entry key="opacityPercent" value="80" />
                                                 <entry key="paddingPercent" value="5" />
                                                 <entry key="trimmed" value="true" />
@@ -38,7 +38,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/G:/AndroidStudio/plugins/android/lib/android.jar!/images/material/icons/materialicons/sentiment_very_satisfied/baseline_sentiment_very_satisfied_24.xml" />
+                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/send/baseline_send_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -85,9 +85,9 @@
                                   <option name="values">
                                     <map>
                                       <entry key="imageAsset" value="C:\Users\tuankq\Pictures\llogo.png" />
-                                      <entry key="outputName" value="ic_react" />
+                                      <entry key="outputName" value="ic_send" />
                                       <entry key="theme" value="CUSTOM" />
-                                      <entry key="themeColor" value="ffa201" />
+                                      <entry key="themeColor" value="226e6e" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -103,7 +103,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="C:\Users\tuankq\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\SAP-LAB-FPT\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -166,7 +166,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\tuankq\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\SAP-LAB-FPT\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -210,7 +210,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\tuankq\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\SAP-LAB-FPT\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -274,7 +274,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="imagePath" value="C:\Users\tuankq\AppData\Local\Temp\ic_android_black_24dp.xml" />
+                                                <entry key="imagePath" value="C:\Users\SAP-LAB-FPT\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>

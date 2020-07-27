@@ -26,7 +26,9 @@
                 android:layout_width="40dp"
                 android:layout_height="40dp"
                 android:id="@+id/image_profile"
-                android:layout_margin="10dp" />
+                android:layout_margin="10dp"
+                app:civ_border_color="@color/colorYellow"
+                app:civ_border_width="2px"/>
 
             <TextView
                 android:layout_width="wrap_content"

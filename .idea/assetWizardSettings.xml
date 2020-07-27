@@ -42,6 +42,20 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                      <entry key="image">
+                                        <value>
+                                          <PersistentState>
+                                            <option name="values">
+                                              <map>
+                                                <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\tuankq\Pictures\llogo.png" />
+                                                <entry key="opacityPercent" value="80" />
+                                                <entry key="paddingPercent" value="-10" />
+                                              </map>
+                                            </option>
+                                          </PersistentState>
+                                        </value>
+                                      </entry>
                                       <entry key="text">
                                         <value>
                                           <PersistentState>
@@ -68,7 +82,9 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_logout" />
+                                      <entry key="assetType" value="IMAGE" />
+                                      <entry key="imageAsset" value="C:\Users\tuankq\Pictures\llogo.png" />
+                                      <entry key="outputName" value="ic_laucher" />
                                       <entry key="theme" value="CUSTOM" />
                                       <entry key="themeColor" value="7b7b78" />
                                     </map>
@@ -98,6 +114,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
+                                                <entry key="imagePath" value="C:\Users\tuankq\Pictures\llogo.png" />
+                                                <entry key="scalingPercent" value="78" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -125,6 +143,12 @@
                                           </PersistentState>
                                         </value>
                                       </entry>
+                                    </map>
+                                  </option>
+                                  <option name="values">
+                                    <map>
+                                      <entry key="backgroundAssetType" value="COLOR" />
+                                      <entry key="backgroundColor" value="f9f6ff" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -293,11 +317,6 @@
                                 </PersistentState>
                               </value>
                             </entry>
-                          </map>
-                        </option>
-                        <option name="values">
-                          <map>
-                            <entry key="outputIconType" value="ACTIONBAR" />
                           </map>
                         </option>
                       </PersistentState>
